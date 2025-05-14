@@ -49,11 +49,11 @@ unzip BC_Nanopore_Tracker.zip
 ```bash
 cd BC_Nanopore_Tracker
 
-**# Step 4: Install All Required Dependencies**
+# Step 4: Install All Required Dependencies
 ```bash
 npm install
 
-**## Additional Frontend Dependencies**
+## Additional Frontend Dependencies
 
 This project uses [PapaParse](https://www.papaparse.com/) to parse and export CSV files in the browser.
 
@@ -65,7 +65,7 @@ Navigate to the `frontend` directory and run:
 cd frontend
 npm install papaparse
 
-**### Configure the environment variables in a `.env` file:**
+# Configure the environment variables in a `.env` file:
     
     ```
     DB_HOST=localhost
@@ -74,9 +74,9 @@ npm install papaparse
     DB_NAME=labdatabase
     PORT=8000
     ```
-**###Set up the MySQL database with the necessary tables and data.**
+###Set up the MySQL database with the necessary tables and data.
 
-**### Running the Application**
+### Running the Application
 
 1.  Start the server:
     
@@ -84,8 +84,7 @@ npm install papaparse
     node app.js
     ```
 2.  The server will be running at `http://localhost:8000`.
-
-**API Endpoints**
+API Endpoints
 Base URL: /api/data
 Method	               Endpoint	                     Description
 GET	                   /:tableName	                 Fetch paginated data for a table
