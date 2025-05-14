@@ -30,4 +30,14 @@ project-root
 ├── .env # Environment variables
 ├── app.js # Application entry point
 └── package.json # Project dependencies and scripts
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- MySQL Server
+
+### Setup Instructions
+1. First, grab a copy of the repository:
+
 
