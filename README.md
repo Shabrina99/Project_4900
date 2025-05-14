@@ -38,6 +38,15 @@ project-root
 - MySQL Server
 
 ### Setup Instructions
-1. First, grab a copy of the repository:
+# Step 1: Download the ZIP archive from the GitHub repository
+# Visit the following link and click 'Download':
+# https://github.com/Shabrina99/Project_4900/blob/patch-1/BC_Nanopore_Tracker.zip
+
+# Step 2: Extract the ZIP file
+unzip BC_Nanopore_Tracker.zip
+
+# Step 3: Navigate into the project folder
+```bash
+cd BC_Nanopore_Tracker
 
 
