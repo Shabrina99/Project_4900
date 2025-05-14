@@ -53,7 +53,7 @@ cd BC_Nanopore_Tracker
 ```bash
 npm install
 
-## Additional Frontend Dependencies
+### Additional Frontend Dependencies
 
 This project uses [PapaParse](https://www.papaparse.com/) to parse and export CSV files in the browser.
 
@@ -65,7 +65,7 @@ Navigate to the `frontend` directory and run:
 cd frontend
 npm install papaparse
 
-# Configure the environment variables in a `.env` file:
+### Configure the environment variables in a `.env` file:
     
     ```
     DB_HOST=localhost
