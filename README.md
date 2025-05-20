@@ -17,6 +17,7 @@ Our contributions focused on enhancing the platform’s architecture to better c
 - **Environment Configuration**: Secure configuration using environment variables.
 
 ## Project Structure
+ ```
 project-root
 ├── controllers
 │ └── dbController.js # Handles database operations
@@ -30,6 +31,7 @@ project-root
 ├── .env # Environment variables
 ├── app.js # Application entry point
 └── package.json # Project dependencies and scripts
+ ```
 ## Getting Started
 
 ### Prerequisites
@@ -93,11 +95,8 @@ npm install papaparse
 Base URL: /api/data
 
 Method	               Endpoint	                     Description
-
 GET	                 /:tableName	                 Fetch paginated data for a table
-
 DELETE	               /delete/:tableName/:id	       Delete a record by ID
-
 POST	                 /run	                         Add a new run record
 POST	                 /experiment	                 Add a new experiment record
 POST	                 /computer                     Add a new computer record
