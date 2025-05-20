@@ -46,8 +46,7 @@ https://github.com/Shabrina99/Project_4900/blob/patch-1/BC_Nanopore_Tracker.zip
 unzip BC_Nanopore_Tracker.zip
 
 # Step 3: Navigate into the project folder
-```bash
-cd BC_Nanopore_Tracker
+
 
 # Step 4: Install All Required Dependencies
 ```bash
