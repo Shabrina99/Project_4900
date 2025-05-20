@@ -93,6 +93,7 @@ npm install papaparse
 Base URL: /api/data
 
 Method	               Endpoint	                     Description
+
 GET	                 /:tableName	                 Fetch paginated data for a table
 
 DELETE	               /delete/:tableName/:id	       Delete a record by ID
