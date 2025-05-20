@@ -46,12 +46,14 @@ https://github.com/Shabrina99/Project_4900/blob/patch-1/BC_Nanopore_Tracker.zip
 unzip BC_Nanopore_Tracker.zip
 
 # Step 3: Navigate into the project folder
-
+ ```
 cd BC_Nanopore_Tracker
+ ```
 
 # Step 4: Install All Required Dependencies
-
+ ```
 npm install
+ ```
 
 ### Additional Frontend Dependencies
 
@@ -60,9 +62,10 @@ This project uses [PapaParse](https://www.papaparse.com/) to parse and export CS
 ### Install PapaParse
 
 Navigate to the `frontend` directory and run:
-
+ ```
 cd frontend
 npm install papaparse
+ ```
 
 ### Configure the environment variables in a `.env` file:
     
@@ -82,10 +85,13 @@ npm install papaparse
     ```
     node app.js
     ```
+
 2.  The server will be running at `http://localhost:8000`.
 
-API Endpoints
+**API Endpoints**
+
 Base URL: /api/data
+
 Method	               Endpoint	                     Description
 GET	                   /:tableName	                 Fetch paginated data for a table
 DELETE	               /delete/:tableName/:id	       Delete a record by ID
