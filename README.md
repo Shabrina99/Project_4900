@@ -41,8 +41,7 @@ project-root
 # Step 1: Download the ZIP archive from the GitHub repository
 
 # Visit the following link and click 'Download':
-
-# https://github.com/Shabrina99/Project_4900/blob/patch-1/BC_Nanopore_Tracker.zip
+https://github.com/Shabrina99/Project_4900/blob/patch-1/BC_Nanopore_Tracker.zip
 
 # Step 2: Extract the ZIP file
 unzip BC_Nanopore_Tracker.zip
