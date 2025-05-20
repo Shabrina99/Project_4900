@@ -46,10 +46,11 @@ https://github.com/Shabrina99/Project_4900/blob/patch-1/BC_Nanopore_Tracker.zip
 unzip BC_Nanopore_Tracker.zip
 
 # Step 3: Navigate into the project folder
+
 cd BC_Nanopore_Tracker
 
 # Step 4: Install All Required Dependencies
-```bash
+
 npm install
 
 ### Additional Frontend Dependencies
@@ -60,20 +61,19 @@ This project uses [PapaParse](https://www.papaparse.com/) to parse and export CS
 
 Navigate to the `frontend` directory and run:
 
-```bash
 cd frontend
 npm install papaparse
 
 ### Configure the environment variables in a `.env` file:
     
-    ```
+ 
     DB_HOST=localhost
     DB_USER=root
     DB_PASSWORD=your_password
     DB_NAME=labdatabase
     PORT=8000
-    ```
-###Set up the MySQL database with the necessary tables and data.
+  
+### Set up the MySQL database with the necessary tables and data.
 
 ### Running the Application
 
@@ -83,6 +83,7 @@ npm install papaparse
     node app.js
     ```
 2.  The server will be running at `http://localhost:8000`.
+
 API Endpoints
 Base URL: /api/data
 Method	               Endpoint	                     Description
