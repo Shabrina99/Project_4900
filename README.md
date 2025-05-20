@@ -95,12 +95,12 @@ npm install papaparse
 Base URL: /api/data
  ```
 Method	               Endpoint	                     Description
-GET	                 /:tableName	                   Fetch paginated data for a table
+GET	                   /:tableName	                 Fetch paginated data for a table
 DELETE	               /delete/:tableName/:id	       Delete a record by ID
 POST	                 /run	                         Add a new run record
 POST	                 /experiment	                 Add a new experiment record
 POST	                 /computer                     Add a new computer record
 POST	                 /minion	                     Add a new minion record
-PUT	                 /:tableName/:id	               Update a record by ID
+PUT	                   /:tableName/:id	             Update a record by ID
  ```
 
