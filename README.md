@@ -80,6 +80,21 @@ npm install papaparse
   
 ### Set up the MySQL database with the necessary tables and data.
 
+Create a new database:
+   ```
+CREATE DATABASE labdatabase;
+   ```
+Import the SQL dump:
+   ```
+mysql -u <username> -p labdatabase < labdatabase_localhost-2025_01_07_15_12_59-dump.sql
+   ```
+Verify the data:
+   ```
+USE labdatabase;
+SHOW TABLES;
+   ```
+
+
 ### Running the Application
 
 1.  Start the server:
