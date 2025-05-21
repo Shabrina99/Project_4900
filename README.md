@@ -103,4 +103,16 @@ POST	                 /computer                     Add a new computer record
 POST	                 /minion	                     Add a new minion record
 PUT	                   /:tableName/:id	             Update a record by ID
  ```
+##Contributors
+
+Developers:
+
+Shabrina Yesmin - GitHub Profile
+Areej Fatima- GitHub Profile
+
+Supervisors:
+
+    Ilana Cohen - icohen1@gradcenter.cuny.edu
+    Professor Theodore Muth - tmuth@brooklyn.cuny.edu
+
 
