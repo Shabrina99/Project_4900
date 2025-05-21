@@ -90,6 +90,15 @@ npm install papaparse
 
 2.  The server will be running at `http://localhost:8000`.
 
+Note:
+
+  Ensure you have MySQL database set up with the necessary tables and data.
+  
+  Ensure that the database credentials in your application match those in the .env file or the database connection settings.
+  
+  Backup your database before making changes to prevent data loss.
+
+
 **API Endpoints**
 
 Base URL: /api/data
@@ -103,16 +112,20 @@ POST	                 /computer                     Add a new computer record
 POST	                 /minion	                     Add a new minion record
 PUT	                   /:tableName/:id	             Update a record by ID
  ```
-##Contributors
 
-Developers:
+
+### Contributors
+
+**Developers:**
 
 Shabrina Yesmin - GitHub Profile
+
 Areej Fatima- GitHub Profile
 
-Supervisors:
+**Supervisors:**
 
     Ilana Cohen - icohen1@gradcenter.cuny.edu
+    
     Professor Theodore Muth - tmuth@brooklyn.cuny.edu
 
 
