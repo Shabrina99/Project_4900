@@ -115,12 +115,18 @@ PUT	                   /:tableName/:id	             Update a record by ID
 
 
 ## Start the server in a separate terminal
-Move to the server directory cd server
 
-Start the server:
- ```
-    node app.js
- ```
+Move into the project's client directory
+
+```
+cd client\vite-project
+```
+Run the application in developer mode
+```
+npm run dev
+
+```
+Open project in the browser. Vite will display a link which you can click on. For example http://localhost:5173
 
 ### Contributors
 
