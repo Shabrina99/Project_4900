@@ -114,6 +114,14 @@ PUT	                   /:tableName/:id	             Update a record by ID
  ```
 
 
+## Start the server in a separate terminal
+Move to the server directory cd server
+
+Start the server:
+ ```
+    node app.js
+ ```
+
 ### Contributors
 
 **Developers:**
